@@ -1,0 +1,16 @@
+{
+  "name": "password-generator-ts",
+  "version": "1.0.0",
+  "description": "password generator with typescript and sass",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "sass": "sass",
+    "sass-w": "sass --watch ./src/main.scss ./public/css/main-style.css"
+  },
+  "author": "Giacomo",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.38.0"
+  }
+}
