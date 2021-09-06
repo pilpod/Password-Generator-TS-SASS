@@ -1,4 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Georama&display=swap");
+.box {
+  background-color: white;
+  border-radius: 20px;
+  width: 400px;
+  height: 200px;
+  margin: 100px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.box * {
+  margin: 0 5px;
+}
+.box button {
+  width: 25%;
+}
+.box #input-pass {
+  width: 100%;
+  text-align: center;
+}
+.box #title {
+  width: 100%;
+  display: block;
+  font-weight: 700;
+  font-size: x-large;
+}
+
+#input-editable {
+  width: 100%;
+  text-align: center;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,

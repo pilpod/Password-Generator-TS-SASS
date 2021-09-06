@@ -1,0 +1,36 @@
+.box {
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    margin: 100px auto;
+    padding: 0 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    * {
+        margin: 0 5px;
+    }
+
+    button {
+        width: 25%;
+    }
+
+    #input-pass {
+        width: 100%;
+        text-align: center;
+    }
+
+    #title {
+        width: 100%;
+        display: block;
+        font-weight: 700;
+        font-size: x-large;
+    }
+}
+
