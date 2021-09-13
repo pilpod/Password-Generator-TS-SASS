@@ -5,7 +5,6 @@ export function renderCode()
 {
 
     btnGenerate.addEventListener('click', () => {
-        console.log('test');
         codeInput.value =  generatePass();
     })
 
