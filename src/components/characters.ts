@@ -1,6 +1,6 @@
-export function getArrayChar()
+export function getArrayChar(): string[]
 {
-    const arrChar = [];
+    const arrChar: any[] = [];
 
     for (let i = 33; i <= 126; i++) {
         let char = String.fromCharCode(i);

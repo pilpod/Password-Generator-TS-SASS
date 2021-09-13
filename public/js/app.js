@@ -1,7 +1,6 @@
-import { generatePass } from './components/generator.js';
+import { renderCode } from './components/codeRender.js';
 function app() {
-    const pass = (generatePass());
-    console.log(pass);
+    renderCode();
 }
 app();
 //# sourceMappingURL=app.js.map

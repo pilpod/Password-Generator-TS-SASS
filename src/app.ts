@@ -1,8 +1,7 @@
-import { generatePass } from './components/generator.js';
+import { renderCode } from './components/codeRender.js';
 
 function app() {
-    const pass: string = (generatePass());
-    console.log(pass);
+    renderCode();
 }
 
 app();

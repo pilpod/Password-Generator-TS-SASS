@@ -1,15 +1,15 @@
 import { getArrayChar } from "./characters.js";
 
-export function generatePass ()
+export function generatePass (): string
 {
-    let arrChars = getArrayChar();
+    let arrChars: string[] = getArrayChar();
 
-    let codeLength = 8;
-    let code = '';
+    let codeLength: number = 8;
+    let code: string = '';
 
     while (codeLength > 0) {
-        let index = Math.floor(Math.random() * (arrChars.length));
-        let char = arrChars[index];
+        let index: number = Math.floor(Math.random() * (arrChars.length));
+        let char: string = arrChars[index];
         code += char;
         codeLength--;
     }
